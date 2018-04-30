@@ -6,22 +6,22 @@ structuredData: |
     <script type='application/ld+json'> 
         {
           "@context": "http://www.schema.org",
-          "@type": "Attorney",
-          "name": "Avvocato Dora Ballabio",
+          "@type": "Shoe Store",
+          "name": "Marengo Milano",
           "url": "$baseUrl",
           "logo": "$baseUrl/images/$logoPNG",
           "image": "$baseUrl/images/$logoPNG",
           "description": "$description",
           "address": {
             "@type": "PostalAddress",
-            "streetAddress": "Via Monteverdi, 16",
+            "streetAddress": "Via , ",
             "addressLocality": "Milan",
             "addressRegion": "MI",
-            "postalCode": "20131",
+            "postalCode": "201",
             "addressCountry": "IT"
           },
-          "telephone": [ "+39 $phone", "+39 $cell" ],
-          "email": [ "$mail", "$mailPec"],
+          "telephone": [ "+39 $phone" ],
+          "email": [ "$mail" ],
           "openingHoursSpecification": [
             {
               "@type": "OpeningHoursSpecification",
@@ -32,8 +32,8 @@ structuredData: |
                 "Thursday",
                 "Friday"
               ],
-              "opens": "00:00",
-              "closes": "23:59"
+              "opens": "09:00",
+              "closes": "19:00"
             },
             {
               "@type": "OpeningHoursSpecification",
@@ -41,25 +41,10 @@ structuredData: |
                 "Saturday",
                 "Sunday"
               ],
-              "opens": "00:00",
-              "closes": "23:59"
+              "opens": "9:00",
+              "closes": "19:00"
             }
           ]
-        }
-    </script>
-    <script type="application/ld+json">
-        {
-          "@context": "http://schema.org",
-          "@type": "BreadcrumbList",
-          "itemListElement": [{
-            "@type": "ListItem",
-            "position": 1,
-            "item": {
-              "@id": "$baseUrl/",
-              "name": "Avvocato Dora Ballabio",
-              "image": "$baseUrl/images/$logoPNG"
-            }
-          }]
         }
     </script>
 

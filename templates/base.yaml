@@ -1,9 +1,9 @@
 %YAML 1.2
 ---
 baseUrl: https://www.marengomilano.it
-faviconsPrefix: ../favicons/favicon-
-faviconsExtension: png
 siteName: Marengo Milano
 mail: info@marengomilano.it
+address: |
+	
 phone: ""
 logoPNG: logo.png
