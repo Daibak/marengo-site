@@ -1,0 +1,65 @@
+%YAML 1.2
+---
+title: Marengo Milano
+description: ""
+structuredData: |
+    <script type='application/ld+json'> 
+        {
+          "@context": "http://www.schema.org",
+          "@type": "Attorney",
+          "name": "Avvocato Dora Ballabio",
+          "url": "$baseUrl",
+          "logo": "$baseUrl/images/$logoPNG",
+          "image": "$baseUrl/images/$logoPNG",
+          "description": "$description",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Via Monteverdi, 16",
+            "addressLocality": "Milan",
+            "addressRegion": "MI",
+            "postalCode": "20131",
+            "addressCountry": "IT"
+          },
+          "telephone": [ "+39 $phone", "+39 $cell" ],
+          "email": [ "$mail", "$mailPec"],
+          "openingHoursSpecification": [
+            {
+              "@type": "OpeningHoursSpecification",
+              "dayOfWeek": [
+                "Monday",
+                "Tuesday",
+                "Wednesday",
+                "Thursday",
+                "Friday"
+              ],
+              "opens": "00:00",
+              "closes": "23:59"
+            },
+            {
+              "@type": "OpeningHoursSpecification",
+              "dayOfWeek": [
+                "Saturday",
+                "Sunday"
+              ],
+              "opens": "00:00",
+              "closes": "23:59"
+            }
+          ]
+        }
+    </script>
+    <script type="application/ld+json">
+        {
+          "@context": "http://schema.org",
+          "@type": "BreadcrumbList",
+          "itemListElement": [{
+            "@type": "ListItem",
+            "position": 1,
+            "item": {
+              "@id": "$baseUrl/",
+              "name": "Avvocato Dora Ballabio",
+              "image": "$baseUrl/images/$logoPNG"
+            }
+          }]
+        }
+    </script>
+
