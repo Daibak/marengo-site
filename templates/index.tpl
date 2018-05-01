@@ -27,18 +27,6 @@
         <link rel="canonical" href="$baseUrl/index.html" />
 
         <!--  Icons -->
-        <link rel="icon" href="${faviconsPrefix}16.$faviconsExtension" sizes="16x16" type="image/$faviconsExtension" />
-        <link rel="icon" href="${faviconsPrefix}32.$faviconsExtension" sizes="32x32" type="image/$faviconsExtension" />
-        <link rel="icon" href="${faviconsPrefix}48.$faviconsExtension" sizes="48x48" type="image/$faviconsExtension" />
-        <link rel="icon" href="${faviconsPrefix}96.$faviconsExtension" sizes="96x96" type="image/$faviconsExtension" />
-        <link rel="icon" href="${faviconsPrefix}192.$faviconsExtension" sizes="192x192" type="image/$faviconsExtension" />
-
-        <!--
-            <link rel="apple-touch-icon" href="older-iPhone.png"> <!- 120px ->
-            <link rel="apple-touch-icon" sizes="180x180" href="iPhone-6-Plus.png">
-            <link rel="apple-touch-icon" sizes="152x152" href="iPad-Retina.png">
-            <link rel="apple-touch-icon" sizes="167x167" href="iPad-Pro.png">
-        -->
 
         <!--  Style -->
         <link rel="stylesheet" href="assets/css/main.css" />
@@ -112,23 +100,46 @@
 						<!-- Panel -->
 							<section class="panel">
 								<div class="intro color2">
-									<h2 class="major">Elit integer</h2>
-									<p>Sed vel nibh libero. Mauris et lorem pharetra massa lorem turpis congue pulvinar. Vivamus sed feugiat finibus. Duis amet bibendum amet sed. Duis mauris ex, dapibus sed ligula tempus volutpat magna etiam.</p>
+									<h2 class="major">$tit2</h2>
+									$text2
 								</div>
 								<div class="gallery">
 									<div class="group span-3">
-										<a href="images/gallery/fulls/01.jpg" class="image filtered span-3" data-position="bottom"><img src="images/gallery/thumbs/01.jpg" alt="" /></a>
-										<a href="images/gallery/fulls/02.jpg" class="image filtered span-1-5" data-position="center"><img src="images/gallery/thumbs/02.jpg" alt="" /></a>
-										<a href="images/gallery/fulls/03.jpg" class="image filtered span-1-5" data-position="bottom"><img src="images/gallery/thumbs/03.jpg" alt="" /></a>
+										<a href="images/gallery/fulls/first-1.jpg" class="image filtered span-3" data-position="bottom"><img src="images/gallery/fulls/first-1.jpg" alt="" /></a>
+										<a href="images/gallery/fulls/first-2.jpg" class="image filtered span-1-5" data-position="center"><img src="images/gallery/fulls/first-2.jpg" alt="" /></a>
+										<a href="images/gallery/fulls/first-3.jpg" class="image filtered span-1-5" data-position="bottom"><img src="images/gallery/fulls/first-3.jpg" alt="" /></a>
 									</div>
-									<a href="images/gallery/fulls/04.jpg" class="image filtered span-2-5" data-position="top"><img src="images/gallery/thumbs/04.jpg" alt="" /></a>
+								</div>
+							</section>
+
+						<!-- Panel -->
+							<section class="panel">
+								<div class="intro color2">
+									<h2 class="major">$tit3</h2>
+									$text3
+								</div>
+								<div class="gallery">
 									<div class="group span-4-5">
-										<a href="images/gallery/fulls/05.jpg" class="image filtered span-3" data-position="top"><img src="images/gallery/thumbs/05.jpg" alt="" /></a>
-										<a href="images/gallery/fulls/06.jpg" class="image filtered span-1-5" data-position="center"><img src="images/gallery/thumbs/06.jpg" alt="" /></a>
-										<a href="images/gallery/fulls/07.jpg" class="image filtered span-1-5" data-position="bottom"><img src="images/gallery/thumbs/07.jpg" alt="" /></a>
-										<a href="images/gallery/fulls/08.jpg" class="image filtered span-3" data-position="top"><img src="images/gallery/thumbs/08.jpg" alt="" /></a>
+										<a href="images/gallery/fulls/lidfort-1.jpg" class="image filtered span-3" data-position="top"><img src="images/gallery/fulls/lidfort-1.jpg" alt="" /></a>
+										<a href="images/gallery/fulls/lidfort-2.jpg" class="image filtered span-1-5" data-position="center"><img src="images/gallery/fulls/lidfort-2.jpg" alt="" /></a>
+										<a href="images/gallery/fulls/lidfort-3.jpg" class="image filtered span-1-5" data-position="bottom"><img src="images/gallery/fulls/lidfort-3.jpg" alt="" /></a>
+										<a href="images/gallery/fulls/lidfort-4.jpg" class="image filtered span-3" data-position="top"><img src="images/gallery/fulls/lidfort-4.jpg" alt="" /></a>
 									</div>
-									<a href="images/gallery/fulls/09.jpg" class="image filtered span-2-5" data-position="right"><img src="images/gallery/thumbs/09.jpg" alt="" /></a>
+								</div>
+							</section>
+
+						<!-- Panel -->
+							<section class="panel">
+								<div class="intro color2">
+									<h2 class="major">$tit4</h2>
+									$text4
+								</div>
+								<div class="gallery">
+									<div class="group span-3">
+										<a href="images/gallery/fulls/lemargo-up-1.jpg" class="image filtered span-3" data-position="bottom"><img src="images/gallery/fulls/lemargo-up-1.jpg" alt="" /></a>
+										<a href="images/gallery/fulls/lemargo-up-2.jpg" class="image filtered span-1-5" data-position="center"><img src="images/gallery/fulls/lemargo-up-2.jpg" alt="" /></a>
+										<a href="images/gallery/fulls/lemargo-up-3.jpg" class="image filtered span-1-5" data-position="bottom"><img src="images/gallery/fulls/lemargo-up-3.jpg" alt="" /></a>
+									</div>
 								</div>
 							</section>
 
